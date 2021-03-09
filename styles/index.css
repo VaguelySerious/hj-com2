@@ -1,0 +1,22 @@
+/* INTRO PAGE */
+#intro-page {
+  text-align: center;
+  background-color: #aa1919;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#intro-page h1 {
+  color: #fff;
+}
+
+#intro-page span.italic {
+  font-size: 20px;
+}
+
+#intro-page .uk-button {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  line-height: 60px;
+}
