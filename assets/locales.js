@@ -178,7 +178,7 @@ export default {
           body: `<a href="mailto:herbst.kanzlei@rolmail.net" rel="herbst.kanzlei/rolmail.net" class="herbstmail">herbst.kanzlei@rolmail.net</a>`,
         },
         {
-          name: 'Email Johanna Herbst',
+          name: 'PEC Email Johanna Herbst',
           body: `<a href="mailto:johanna.herbst@pec.rolmail.net" rel="johanna.herbst/pec.rolmail.net" class="herbstmail"> johanna.herbst@pec.rolmail.net</a>`,
         },
         { name: 'Partita Iva', body: '02605690219' },
