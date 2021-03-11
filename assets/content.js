@@ -5,7 +5,7 @@ export default function Studio({ locale }) {
   const l = text[locale || 'de']
 
   return (
-    <div>
+    <div lang={locale}>
       <Head>
         <title>{l.meta.title}</title>
         <meta charset="UTF-8" />
