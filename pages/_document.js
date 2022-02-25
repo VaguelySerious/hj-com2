@@ -32,7 +32,7 @@ export default class extends Document {
   render() {
     const isDev = process.env.NODE_ENV === 'development'
     return (
-      <html>
+      <Html>
         {isDev ? <Head /> : <MyHead />}
         <body>
           <Main />
@@ -43,7 +43,7 @@ export default class extends Document {
             integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"
           ></script>
         </body>
-      </html>
+      </Html>
     )
   }
 }

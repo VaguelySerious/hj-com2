@@ -254,12 +254,12 @@ export default function Studio({ locale }) {
               </div>
               <div className="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
                 <div className="uk-width-medium-1-2">
-                  <img src="img/personal/petra2.jpg" alt="Petra Dibiasi" />
+                  <img width="130" height="90" src="img/personal/susanne_2.jpg" alt="Susanne Köhl" />
                   <div className="team-member">
-                    {l.team.roles.DR} <br />
-                    <span className="italic">Petra Dibiasi </span>
+                    {l.team.roles.RADR} <br />
+                    <span className="italic">Susanne Köhl</span>
                     <br />
-                    {l.team.roles.jur} <br />
+                    {l.team.roles.avv_in} <br />
                   </div>
                 </div>
                 <div className="uk-width-medium-1-2">
@@ -278,26 +278,6 @@ export default function Studio({ locale }) {
                   <div className="team-member">
                     <span className="italic">Rosa Herbst</span> <br />
                     {l.team.roles.sek}
-                    <br />
-                  </div>
-                </div>
-                <div className="uk-width-medium-1-2 uk-margin-top">
-                  <img src="img/personal/sigrid.jpg" alt="Sigrid Joppi " />
-                  <div className="team-member">
-                    <span className="italic">Sigrid Joppi</span> <br />
-                    {l.team.roles.sek}
-                    <br />
-                  </div>
-                </div>
-                <div className="uk-width-medium-1-2 uk-margin-top">
-                  <img
-                    src="img/personal/francesca.jpg"
-                    alt="Francesca Dalmartello"
-                  />
-                  <div className="team-member">
-                    <span className="italic">Francesca Dalmartello</span>
-                    <br />
-                    {l.team.roles.anwärter}
                     <br />
                   </div>
                 </div>
