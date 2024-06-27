@@ -242,7 +242,12 @@ export default function Studio({ locale }) {
             <div className="uk-width-large-7-10 uk-width-medium-7-10">
               <div className="uk-grid">
                 <div className="uk-width-medium-2-3">
-                  <img src="img/personal/johanna.jpg" alt="Johanna Herbst" />
+                  <img
+                    src="img/personal/johanna@2x.jpg"
+                    width="210"
+                    height="140"
+                    alt="Johanna Herbst"
+                  />
                   <div className="team-member">
                     {l.team.roles.RADR} <br />
                     <span className="italic">Johanna Herbst</span>
@@ -268,7 +273,12 @@ export default function Studio({ locale }) {
                   </div>
                 </div>
                 <div className="uk-width-medium-1-2">
-                  <img src="img/personal/luca_riva.jpg" alt="Luca Riva" />
+                  <img
+                    width="130"
+                    height="90"
+                    src="img/personal/luca_riva@2x.jpg"
+                    alt="Luca Riva"
+                  />
                   <div className="team-member">
                     {l.team.roles.RADR} <br />
                     <span className="italic">Luca Riva </span>
@@ -279,7 +289,12 @@ export default function Studio({ locale }) {
                   <div className="uk-width-medium-1-3"></div>
                 </div>
                 <div className="uk-width-medium-1-2 uk-margin-top">
-                  <img src="img/personal/rosa.jpg" alt="Rosa Herbst" />
+                  <img
+                    width="130"
+                    height="90"
+                    src="img/personal/rosa.jpg"
+                    alt="Rosa Herbst"
+                  />
                   <div className="team-member">
                     <span className="italic">Rosa Herbst</span> <br />
                     {l.team.roles.sek_in}
@@ -288,7 +303,9 @@ export default function Studio({ locale }) {
                 </div>
                 <div className="uk-width-medium-1-2 uk-margin-top">
                   <img
-                    src="img/personal/sebastian.jpg"
+                    width="130"
+                    height="90"
+                    src="img/personal/sebastian@2x.jpg"
                     alt="Sebastian Dibiasi"
                   />
                   <div className="team-member">
