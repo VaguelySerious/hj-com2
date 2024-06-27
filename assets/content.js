@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import text from '../assets/locales'
+import Head from "next/head";
+import text from "../assets/locales";
 
 export default function Studio({ locale }) {
-  const l = text[locale || 'de']
+  const l = text[locale || "de"];
 
   return (
     <div lang={locale}>
@@ -17,14 +17,14 @@ export default function Studio({ locale }) {
           href="img/apple-touch-icon.png"
         />
         <meta http-equiv="content-language" content={locale} />
-        {locale !== 'it' && (
+        {locale !== "it" && (
           <link
             rel="alternate"
             href="https://herbstjohanna.com/it"
             hreflang="it"
           />
         )}
-        {locale !== 'de' && (
+        {locale !== "de" && (
           <link
             rel="alternate"
             href="https://herbstjohanna.com/de"
@@ -54,13 +54,13 @@ export default function Studio({ locale }) {
           <div className="uk-container uk-container-center">
             <ul
               className={
-                'uk-grid uk-grid-collapse uk-grid-width-medium-1-' +
+                "uk-grid uk-grid-collapse uk-grid-width-medium-1-" +
                 (l.nav.sections.length + 1)
               }
             >
               {l.nav.sections.map((s, i) => (
                 <li key={i}>
-                  <a href={'#' + s.id} data-uk-smooth-scroll="{offset: 260}">
+                  <a href={"#" + s.id} data-uk-smooth-scroll="{offset: 260}">
                     <span className="nav-italic uk-hidden-small">
                       {s.prefix}
                     </span>
@@ -80,15 +80,15 @@ export default function Studio({ locale }) {
           </div>
         </div>
       </nav>
-      <main id="content" style={{ display: 'block' }}>
+      <main id="content" style={{ display: "block" }}>
         <div
           className="parallax"
           data-uk-parallax="{bg: '-200'}"
           style={{
             backgroundImage: "url('img/background/bild1.jpg')",
-            backgroundSize: '1388px 694px',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: '50% -200px',
+            backgroundSize: "1388px 694px",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "50% -200px",
           }}
         ></div>
 
@@ -140,9 +140,9 @@ export default function Studio({ locale }) {
           data-uk-parallax="{bg: '-200'}"
           style={{
             backgroundImage: "url('img/background/bild2.jpg')",
-            backgroundSize: '1388px 694px',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: '50% -200px',
+            backgroundSize: "1388px 694px",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "50% -200px",
           }}
         ></div>
 
@@ -224,9 +224,9 @@ export default function Studio({ locale }) {
           data-uk-parallax="{bg: '-200'}"
           style={{
             backgroundImage: "url('img/background/bild3.jpg')",
-            backgroundSize: '1388px 694px',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: '50% -200px',
+            backgroundSize: "1388px 694px",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "50% -200px",
           }}
         ></div>
 
@@ -254,7 +254,12 @@ export default function Studio({ locale }) {
               </div>
               <div className="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
                 <div className="uk-width-medium-1-2">
-                  <img width="130" height="90" src="img/personal/susanne_2.jpg" alt="Susanne Köhl" />
+                  <img
+                    width="130"
+                    height="90"
+                    src="img/personal/susanne_2.jpg"
+                    alt="Susanne Köhl"
+                  />
                   <div className="team-member">
                     {l.team.roles.RADR} <br />
                     <span className="italic">Susanne Köhl</span>
@@ -277,6 +282,17 @@ export default function Studio({ locale }) {
                   <img src="img/personal/rosa.jpg" alt="Rosa Herbst" />
                   <div className="team-member">
                     <span className="italic">Rosa Herbst</span> <br />
+                    {l.team.roles.sek_in}
+                    <br />
+                  </div>
+                </div>
+                <div className="uk-width-medium-1-2 uk-margin-top">
+                  <img
+                    src="img/personal/sebastian.jpg"
+                    alt="Sebastian Dibiasi"
+                  />
+                  <div className="team-member">
+                    <span className="italic">Sebastian Dibiasi</span> <br />
                     {l.team.roles.sek}
                     <br />
                   </div>
@@ -287,5 +303,5 @@ export default function Studio({ locale }) {
         </section>
       </main>
     </div>
-  )
+  );
 }
